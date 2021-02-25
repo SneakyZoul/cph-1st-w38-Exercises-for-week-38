@@ -9,9 +9,9 @@ class Datamatikker
     }
 
 
-    public static void allStudents(string[] students)
+    public static void Students(string[] students)
     {
-        int [] students = new students[10];
+        int [] students = new Students[10];
         students [0] = new Student("olle", 22, false, "spring");
         students [1] = new Student("Nicolaj", 20, false, "spring";
         students [2] = new Student("Mie", 21, true, "spring");
@@ -26,4 +26,11 @@ class Datamatikker
     
         //5.b og c har jeg problemer med at forstå. 
         // jeg vælger at stoppe til jeg kan fålidt hjælps til at forstå 
+        public static void StudnetName(int[] string)
+        {
+            if (int[5])
+            {
+                System.out.println((5));
+            }
+        }
 }

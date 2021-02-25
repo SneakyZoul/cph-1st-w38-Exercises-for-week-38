@@ -24,6 +24,6 @@ class Datamatikker
         students [9] = new Student("jantie", 22, true, "spring"); 
     }
     
-        
-
+        //5.b og c har jeg problemer med at forstå. 
+        // jeg vælger at stoppe til jeg kan fålidt hjælps til at forstå 
 }

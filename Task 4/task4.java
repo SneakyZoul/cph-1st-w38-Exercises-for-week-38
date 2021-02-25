@@ -1,4 +1,5 @@
 
+
 class task4
 { 
   
@@ -6,16 +7,14 @@ class task4
     {
 
         int [] num = new int [4];
-        String [] letter =  new String [4];
+        String [] letter = new String [4];
         boolean [] jump = new boolean[4]; 
-      
+        int [] num2 = {10,20,300,40};
         
 
             letAry(letter); 
-            System.out.println(letter);
-            numAry(num); 
-            System.out.println(num);
-          
+            numAry(num);  
+          avag(num2); 
 
     }
      
@@ -49,5 +48,21 @@ class task4
         System.out.println("sum = " + sumt); 
 
     }       
+    
+    
+    public static void avag(int[] num2)
+    {
+        int total = 0; 
+        for (int j = 0; j < num2.length; j++)
+        {
+            total = total + num2[j];
+            int snit = total/num2.length; 
+           
+        }
+        int snit = total/num2.length;  
+        System.out.println(snit);
+       
+    }
+    
 }
 
